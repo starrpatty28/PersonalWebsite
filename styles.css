@@ -8,3 +8,31 @@ body {
     background-color: aqua;
     padding: 150px 0;
 }
+
+.project--img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.skills--img {
+    width: 75%;
+}
+
+.project--title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+ /* .icon {
+    font-size: 3.2rem;
+    color: blueviolet;
+} */
+
+.fa {
+    font-size: 2rem;
+    color: red;
+}
