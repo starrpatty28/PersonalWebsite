@@ -5,7 +5,7 @@ body {
 
 .main {
    /* margin: 50px 0; */
-    background-color: aqua;
+    background-color:lightskyblue;
     padding: 225px 0;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .row .about--me{
-    padding-top: 2.5rem;
+    padding-top: 2.5rem
 }
 
 
