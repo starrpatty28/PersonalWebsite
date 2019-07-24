@@ -14,8 +14,20 @@ body {
     padding-top: 10px;
 }
 
+.skills {
+    height: 100vh;
+    padding-top: 100px;
+}
+
 .skills--img {
     width: 72%;
+}
+
+.progress-group {
+    padding: 10px 0;
+}
+.project {
+    margin: 5px 0;
 }
 
 .project--title {
@@ -50,3 +62,9 @@ body {
 .main--subtitle {
     padding-bottom: 25px;
 }
+
+.row .about--me{
+    padding-top: 2.5rem;
+}
+
+

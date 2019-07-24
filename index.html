@@ -42,9 +42,6 @@
       <li class="nav-item">
         <a class="nav-link" href="#project-heading">Projects</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#project-heading">Contact</a>
-      </li>
     </ul>
   </div>
 </nav>
@@ -52,12 +49,12 @@
      <!--About Me Title--> 
 <div class="row about text-center">
     <div class="col-sm">
-        <h3 id="about-heading" class="about--title">
+        <h3 class="about--title">
             About
         </h3>
     </div>
      <!--About Me 2 Liners-->
-    <div class="row about--me">
+    <div id="about-heading" class="row about--me">
         <div class="col-sm-3">
             <h4 class="about--subtitld">Frontend</h4>
             <p class="about--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -83,10 +80,39 @@
         <img class="skills--img" src="img/Alicia Livingston.png" alt="">
     </div>
     <div class="col-sm-6 skills--my-skills">
-         <img src="https://www.jqueryscript.net/images/animated-skills-bar.jpg" alt="">
+        <div class="progress-group">
+            <p class="progress-label">HTML</p>
+            <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+        </div>
+        <div class="progress-group">
+                <p class="progress-label">CSS</p>
+             <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+             </div>
+         </div>
+         <div class="progress-group">
+                    <p class="progress-label">JavaScript</p>
+                     <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+                     </div>
+                </div> 
+         <div class="progress-group">
+                        <p class="progress-label">Bootstrap</p>
+                 <div class="progress">
+                     <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+                 </div>
+         </div>
+         <div class="progress-group">
+                <p class="progress-label">GIT</p>
+                 <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+                 </div>
+            </div>          
     </div>
 </div>
-</div>
+</div> <!-- container -->
  <!--Pictures of projects-container-->
 <div class="row projects" id="project-heading">
     <div class="col-sm">
@@ -105,6 +131,7 @@
             <img class="project--img" src="http://absfreepic.com/absolutely_free_photos/small_photos/small-pink-flowers-4928x3264_99568.jpg" alt="">
         </div>
     </div>
+    <!-- <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> -->
 </div>
 
  <!-- Social Media Contact Icons -->
@@ -124,7 +151,6 @@
         </div>
         <div class="col-sm"></div>
     </div>
-
     
  <!-- link to jquery and JavaScript -->
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
