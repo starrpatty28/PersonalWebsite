@@ -40,3 +40,9 @@ body {
 .name {
     color: palevioletred;
 }
+
+.about--title {
+    font-size: 65px;
+    padding-top:50px;
+    padding-bottom: 50px;  
+}
